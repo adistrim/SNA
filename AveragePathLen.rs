@@ -73,7 +73,7 @@ fn main() -> io::Result<()> {
         .open("output/AveragePahLen-output.txt")?;
     writeln!(file, "Average Path Length: {:.2}", avg_length)?;
 
-    println!("Average Path Length: {}", avg_length);
+    println!("Average Path Length: {:.2}", avg_length);
 
     Ok(())
 }
